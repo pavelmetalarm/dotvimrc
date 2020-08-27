@@ -1,7 +1,6 @@
-"" .vimrc  файл конфирурации для текстового редактора VIM
 
 colorscheme desert
-set mouse=a " включает поддержку мыши при работе в терминале (без GUI)
+set mouse=a 
 syntax on
 set number
 set expandtab
