@@ -9,4 +9,5 @@ set enc=utf-8
 set guicursor=n-v-c:block-Cursor
 set hlsearch
 set incsearch
-
+set ignorecase
+set smartcase
