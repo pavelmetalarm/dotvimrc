@@ -1,0 +1,28 @@
+https://arian.io/vim-syntax-highlighting-for-nginx/
+
+
+cd ~
+Bash
+Then download the script. (You should change the link below to the most updated version found on the VIM Scripts site)
+
+wget -O nginx.vim http://www.vim.org/scripts/download_script.php\?src_id\=19394
+Bash
+downloaded
+
+Then make a syntax directory for vim, if you don't already have it.
+
+mkdir -p ~/.vim/syntax
+Bash
+Then move the vim file into the correct directory:
+
+mv nginx.vim ~/.vim/syntax/
+Bash
+Then create your vim filetype file and link the new syntax:
+
+vim ~/.vim/filetype.vim
+Bash
+and paste in there:
+
+au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/* if &ft == '' | setfiletype nginx | endif
+vim
+You should adjust the path to your nginx config, if it is different than /etc/nginx/.
