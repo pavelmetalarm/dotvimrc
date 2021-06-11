@@ -1,0 +1,6 @@
+##HOW TO  ADD YAML HIGHLIGHTING:
+
+Save the file "yaml.vim" in ~/.vim/
+Add the following line to your .vimrc
+
+    au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
