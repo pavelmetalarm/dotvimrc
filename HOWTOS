@@ -1,3 +1,10 @@
+#ADD configuration to your own user:
+
+cp ./dotvimrc/vimrc ~/.vimrc
+
+
+
+
 ##HOW TO  ADD YAML HIGHLIGHTING:
 
 Save the file "yaml.vim" in ~/.vim/
